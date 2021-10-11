@@ -7,7 +7,6 @@ namespace DesignPattern.Singleton
         static void Main(string[] args)
         {
             SingletonDesignPattern();
-
             Console.ReadKey();
         }
 

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPattern.Singleton
 {
+   
     public sealed class SingletonClassCreator<T> where T : class, new()
     {
         private static T _singletoneInstance;

@@ -10,6 +10,10 @@ namespace DesignPattern.Builder
             ConcreteBuilder1 cb1 = new ConcreteBuilder1();
             d.Construct(cb1);
 
+
+            ConcreteBuilder2 concreteBuilder2 = new ConcreteBuilder2();
+
+            d.Construct(concreteBuilder2);
             Console.WriteLine("Hello World!");
         }
     }
